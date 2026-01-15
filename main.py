@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "0042c5d550b1924da9cc1c16abcd8594"
+API_KEY = "YOUR_API_KEY"
 lat = 32.7767
 lon = 96.7970 # Dallas Coordinates
 
