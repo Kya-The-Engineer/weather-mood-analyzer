@@ -9,7 +9,7 @@ It demonstrates clean API usage, data parsing, conditional logic, and thoughtful
 
 The Weather Mood Analyzer:
 - Fetches live weather data using latitude and longitude
-- Extracts releveant information (temperature, conditions, sunrise/sunset)
+- Extracts relevant information (temperature, conditions, sunrise/sunset)
 - Applies logical rules to determine a "mood"
 - Outputs clear, readable results in the console
 
