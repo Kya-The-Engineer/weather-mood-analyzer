@@ -115,7 +115,7 @@ def main():
     feels_like = current.get("feels_like")
     humidity = current.get("humidity")
     wind_mph = current.get("wind_speed")
-    clouds = current.get("clouds", {}).get("all", 0)
+    clouds = current.get("clouds",0)
     sunrise = current.get("sunrise")
     sunset = current.get("sunset")
 
