@@ -115,12 +115,12 @@ def main():
     feels_like = current.get("feels_like")
     humidity = current.get("humidity")
     wind_mph = current.get("wind_speed")
-    clouds = current.get("clouds")
+    clouds = current.get("clouds", {}).get("all", 0)
     sunrise = current.get("sunrise")
     sunset = current.get("sunset")
 
     today = daily[0] if daily else {}
-    hight = today.get("temp", {}).get("max")
+    high = today.get("temp", {}).get("max")
     low = today.get("temp", {}).get("min")
 
     description = ""
@@ -137,7 +137,7 @@ def main():
     print(f"Cloud Cover: {clouds}%")
     print(f"Wind Speed: {wind_mph} mph")
     print(f"Humidity: {humidity}%")
-    print(f"High Today: {hight}°F, Low Today: {low}°F")
+    print(f"High Today: {high}°F, Low Today: {low}°F")
     print(f"Mood: {mood}")
     print(f"Outfit Tip: {outfit}")
 
