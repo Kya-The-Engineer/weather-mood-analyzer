@@ -33,7 +33,7 @@ To protect API keys, this project uses environment variables.
 '''env
 - API_KEY=your_api_key_here
 - pip install requests
-- python3 main.py
+- Run: python3 main.py
 
 ## *Run the program*
 
