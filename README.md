@@ -14,7 +14,7 @@ The Weather Mood Analyzer:
 - Outputs clear, readable results in the console
 
 
-**This project was built as a part of my transition from Python fundamentals into API-driven and AI adjacent projects.
+This project was built as a part of my transition from Python fundamentals into API-driven and AI adjacent projects.
 
 ------------
 
@@ -35,7 +35,7 @@ To protect API keys, this project uses environment variables.
 - pip install requests
 - python3 main.py
 
-*Run the program*
+## *Run the program*
 
 ## **Example Output**
 
